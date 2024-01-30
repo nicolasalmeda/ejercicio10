@@ -1,0 +1,34 @@
+.cita-card{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background-color: beige;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.button-cita{
+  background-color: rgb(241, 191, 126);
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.cita-container{
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  justify-content: center;
+  align-content: center;
+}
+.card-title{
+  text-align: center;
+  height: 10%;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  gap: 10px;}

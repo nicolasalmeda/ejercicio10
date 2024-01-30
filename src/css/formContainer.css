@@ -1,0 +1,7 @@
+.FormContainer{
+  display: flex;
+  flex-grow: 1;
+  text-align: center;
+  background-color: rgb(243, 174, 174);
+  flex-direction: column;
+}
