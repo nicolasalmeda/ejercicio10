@@ -5,7 +5,7 @@ const ListaCitas = ({peliculas,onDelete}) => {
   return (
     <div className="lista-citas">
       <div className='subtitle'>
-      <h4>Lista de Citas</h4>
+      <h4>Lista de Peliculas</h4>
       </div>
       <div className='cita-container'>
 
@@ -18,8 +18,8 @@ const ListaCitas = ({peliculas,onDelete}) => {
                 <h3>{pelicula.nombre}</h3>
               </div>
             <div className='card-body'>
-            <p>{`Dueño: ${pelicula.descripcion}`}</p>
-            <p>{`Síntomas: ${pelicula.genero}`}</p>
+            <p>{`Desripcion: ${pelicula.descripcion}`}</p>
+            <p>{`Genero:: ${pelicula.genero}`}</p>
           </div>
           <div className='card-button'>
           <button className='button-cita' onClick={() => onDelete(pelicula.id)}>Eliminar</button>
