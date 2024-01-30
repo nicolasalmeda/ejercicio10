@@ -1,0 +1,69 @@
+.container-formulario{
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle{
+  padding: 3%;
+  background-color: rgb(246, 240, 231);
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+  text-align: start;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  background-color: rgb(228, 221, 211);
+}
+
+label{
+  font-size: 1.5em;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input{
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+}
+
+.fechayhora{
+  display: flex;
+  justify-content: center;
+}
+
+.fechayhora label{
+  width: 100%;
+}
+
+button{
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+  background-color: rgb(115, 113, 109);
+  font-size: 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+  align-self: center;
+}
+
+span{
+  color: red;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
